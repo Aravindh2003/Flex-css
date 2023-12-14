@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> css flex</title>
+    <style>
+        .a{
+       display: flex;
+       justify-content: space-between; 
+       align-items: center; 
+       height: 100vh; 
+       flex-direction: row-reverse;
+
+}
+
+
+img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover; 
+    margin: 0 10px;
+ 
+}
+
+        img:hover{
+            width: 500px;
+            height:500px;
+        }
+     .b{
+        content: justify;
+        align-content: space-around;
+        justify-content: space-between;
+        text-align: justify;
+        padding: 10px;
+        border: 1px solid black;
+        margin-right: 10px;
+        height: 450px;
+        flex-wrap: wrap;
+     }
+    </style>
+</head>
+<body>
+    <div class="a">
+       <div class="b" >
+        <img src="https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg" alt="Image 1">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum suscipit eligendi veniam voluptas iste doloremque quia numquam nobis accusamus assumenda ullam, placeat eos sapiente tempore nihil impedit velit adipisci ducimus?</p>
+    </div> 
+      
+       <div class="b" >
+        <img src="https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg" alt="Image 2">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima possimus aspernatur molestiae culpa nam neque officiis eum facere ipsa eos officia temporibus quod cupiditate repellat, in quia earum quaerat perspiciatis.</p>
+    </div>
+       <div class ="b"> 
+        <img src="https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg" alt="Image 3">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam aut mollitia qui eligendi officia quod exercitationem eum temporibus necessitatibus, ipsam velit, facilis eaque error doloribus. Vero assumenda maxime voluptates eum.</p>
+    </div>
+      </div>
+</body>
+</html>
